@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="base_url">http://api-test.tdera.ru/api/</string>
+    <string name="documents_label">Список элементов</string>
+    <string name="duplicate_item_to_top">Скопировать в начало</string>
+    <string name="duplicate_item_to_bottom">Скопировать в конец</string>
+    <string name="copies_amount_text_template">Копий добавлено: %d</string>
+    <string name="start_copies_amount">Копий добавлено: 0</string>
+    <string name="desc_document_menu">Меню дублирование элемента</string>
+    <string name="auth_header_title">Authorization</string>
+    <string name="auth_login">l12345678</string>
+    <string name="auth_password">p12345678</string>
+    <string name="record_text_template">Запись: %d</string>
+    <string name="route_text_template">Номер маршрута: %s</string>
+    <string name="order_text_template">Номер заказа: %s</string>
+</resources>
