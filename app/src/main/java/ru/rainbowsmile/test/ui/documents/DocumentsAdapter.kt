@@ -58,12 +58,12 @@ class DocumentsAdapter(
 
     override fun getItemCount(): Int = mDiffer.currentList.size
 
-    fun submitList(currencies: List<Document>) {
-        mDiffer.submitList(currencies)
+    fun submitList(documents: List<Document>) {
+        mDiffer.submitList(documents)
     }
 
-    fun submitList(currencies: List<Document>, callback: () -> Unit) {
-        mDiffer.submitList(currencies) {
+    fun submitList(documents: List<Document>, callback: () -> Unit) {
+        mDiffer.submitList(documents) {
             callback()
         }
     }
